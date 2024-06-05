@@ -1,7 +1,21 @@
 {
-  "/page": "app/page.js",
+  "/api/blog/[id]/comment/[commentId]/route": "app/api/blog/[id]/comment/[commentId]/route.js",
+  "/api/blog/[id]/comment/route": "app/api/blog/[id]/comment/route.js",
+  "/_not-found": "app/_not-found.js",
+  "/api/blog/route": "app/api/blog/route.js",
+  "/api/blog/[id]/like/route": "app/api/blog/[id]/like/route.js",
+  "/api/blog/[id]/route": "app/api/blog/[id]/route.js",
   "/api/user/[id]/route": "app/api/user/[id]/route.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/blog/edit/[id]/page": "app/blog/edit/[id]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/create-blog/page": "app/create-blog/page.js",
   "/blog/page": "app/blog/page.js",
-  "/api/blog/route": "app/api/blog/route.js"
+  "/api/signup/route": "app/api/signup/route.js",
+  "/signup/page": "app/signup/page.js",
+  "/page": "app/page.js",
+  "/user/page": "app/user/page.js",
+  "/login/page": "app/login/page.js",
+  "/user/[id]/page": "app/user/[id]/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
